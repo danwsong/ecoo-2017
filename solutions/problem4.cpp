@@ -52,6 +52,7 @@ int swaps(vector<string> list) {
 
 int main(int argc, const char * argv[]) {
     freopen("DATA41.txt", "r", stdin);
+ 
     int N;
     while (cin >> N) {
         vector<string> names(N);
