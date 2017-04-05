@@ -1,6 +1,15 @@
 /*
- Although the first instinct to solve this problem might be to loop through the mountains, then compare each of the mountains to that mountain, seeing if any mountains intersect the line of sight of between the mountains. However, this algorithm would require O(n³) time to run, and thus the program would take way too long to run with a dataset of N = 10000.
- A much simpler solution exists, which involves comparing the slopes of the line connecting the peaks of the mountains to the highest slope so far. If the next slope is higher, then the peak is visible, and if not, the peak is not visible. This algorithm only requires O(n²) time to run, which is perfectly reasonable considering the maximum size of the dataset.
+ Although the first instinct to solve this problem might be to loop through the 
+ mountains, then compare each of the mountains to that mountain, seeing if any 
+ mountains intersect the line of sight of between the mountains. However, this 
+ algorithm would require O(n³) time to run, and thus the program would take way 
+ too long to run with a dataset of N = 10000.
+ 
+ A much simpler solution exists, which involves comparing the slopes of the
+ line connecting the peaks of the mountains to the highest slope so far. If
+ the next slope is higher, then the peak is visible, and if not, the peak is
+ not visible. This algorithm only requires O(n²) time to run, which is perfectly
+ reasonable considering the maximum size of the dataset.
  */
 
 #include <iostream>
