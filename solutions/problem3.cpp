@@ -22,7 +22,7 @@ int visibility(vector<int> heights, int mountain) {
     double highestSlope = -0x7FFFFFFF;
     int visibility = 0;
     for (int i = mountain + 1; i < heights.size(); i++) {
-        // Determine the slope for the line connecting the peaks the current monutain and each of the mountains after the current mountain
+        // Slope for the line connecting the peaks the current monutain and the mountains after the current mountain
         double slope = (double) (heights[i] - heights[mountain]) / (double) (i - mountain);
         // Mountain is visible if the slope is higher than the largest slope so far
         if (slope > highestSlope) {
