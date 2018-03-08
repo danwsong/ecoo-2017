@@ -1,5 +1,5 @@
 /*
- Although the first instinct to solve this problem might be to loop through the 
+ Your first instinct to solve this problem might be to loop through the 
  mountains, then compare each of the mountains to that mountain, seeing if any 
  mountains intersect the line of sight of between the mountains. However, this 
  algorithm would require O(n³) time to run, and thus the program would take way 
