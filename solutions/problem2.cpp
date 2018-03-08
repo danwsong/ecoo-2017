@@ -1,6 +1,6 @@
 /*
  This problem, like the last one, is also fairly straightforward. Inputting the
- datasets might be a little bit tricky considering the number judges isn't
+ datasets might be a little bit tricky considering the number of judges isn't
  specified, but it can be done. In order to actually solve the problem, run 
  through multiple rounds of comparing the various scores of the chocolates,
  eliminating the chocolates that do not have or are not tied for the highest score.
